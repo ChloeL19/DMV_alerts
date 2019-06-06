@@ -19,7 +19,7 @@ smtpObj = smtplib.SMTP('smtp.gmail.com', 587) # maybe smtplib.SMTP_SSL() and por
 smtpObj.ehlo()
 smtpObj.starttls()
 # REMOVE THIS
-password = 'kuikia2019'
+password 
 smtpObj.login(' chloe.loughridge@gmail.com ', password ) #DEFINITELY NOT POSTING TO GITHUB
 # Will have to set up application-specific password
 smtpObj.sendmail(' chloe.loughridge@gmail.com ', ' chloe.loughridge@gmail.com ',
